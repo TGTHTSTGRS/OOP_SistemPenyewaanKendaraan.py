@@ -2,19 +2,19 @@
    
 Aplikasi Penyewaan Kendaraan merupakan aplikasi desktop berbasis Python yang menggunakan GUI Tkinter dan database SQLite. Aplikasi ini dirancang untuk menerapkan konsep Pemrograman Berorientasi Objek (Object Oriented Programming/OOP) secara nyata, khususnya pada pengelolaan data kendaraan, pelanggan, dan transaksi penyewaan. 
 
-3. Tujuan dari pembuatan aplikasi:
+2. Tujuan dari pembuatan aplikasi:
    - Menerapkan konsep Object Oriented Programming dalam sebuah aplikasi nyata. 
    - Membuat sistem penyewaan kendaraan yang terintegrasi dengan database. 
    - Menyediakan fitur pengelolaan kendaraan, pelanggan, transaksi sewa, serta login admin. 
    - Menghasilkan aplikasi yang mudah digunakan dan memiliki struktur kode yang rapi. 
 
-4. Daftar spesifikasi Aplikasi:
+3. Daftar spesifikasi Aplikasi:
 
 
     <img width="396" height="388" alt="image" src="https://github.com/user-attachments/assets/0709571d-7093-4ede-aeff-94b5d96733de" />
 
 
-5. Arsitektur Aplikasi:
+4. Arsitektur Aplikasi:
 
    <img width="545" height="440" alt="image" src="https://github.com/user-attachments/assets/2f2cd4d0-5cd1-4cf1-9abb-ba32f88718ec" />
 
