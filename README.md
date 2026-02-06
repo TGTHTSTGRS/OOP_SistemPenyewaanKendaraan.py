@@ -1,4 +1,5 @@
 1. Pendahuluan:
+   
 Aplikasi Penyewaan Kendaraan merupakan aplikasi desktop berbasis Python yang menggunakan GUI Tkinter dan database SQLite. Aplikasi ini dirancang untuk menerapkan konsep Pemrograman Berorientasi Objek (Object Oriented Programming/OOP) secara nyata, khususnya pada pengelolaan data kendaraan, pelanggan, dan transaksi penyewaan. 
 
 3. Tujuan dari pembuatan aplikasi:
@@ -20,17 +21,18 @@ Aplikasi Penyewaan Kendaraan merupakan aplikasi desktop berbasis Python yang men
 
 
 Aplikasi menggunakan arsitektur terpisah antara : 
-  - Presentation Layer: GUI Tkinter (app.py) 
-  - Business Logic Layer: Object OOP (models) 
-  - Data Access Layer: DAO (dao.py) 
-  - Database Layer: SQLite (database.py
+
+
+   <img width="437" height="119" alt="image" src="https://github.com/user-attachments/assets/03016ec9-90f9-4062-be0f-95b2d3cb06d4" />
+
 
 5. Fitur Utama: 
 Manajemen Data Kendaraan (CRUD): 
 -	Menambahkan data kendaraan (Mobil dan Motor) 
 -	Menampilkan daftar kendaraan 
 -	Mengubah data kendaraan 
--	Menghapus data kendaraan 
+-	Menghapus data kendaraan
+  
 Manajemen Data Pelanggan (CRUD): 
 -	Menambahkan data pelanggan 
 -	Menampilkan data pelanggan 
@@ -38,7 +40,8 @@ Manajemen Data Pelanggan (CRUD):
 -	Menghapus data pelanggan Transaksi Penyewaan Kendaraan: 
 -	Memilih pelanggan dan kendaraan 
 -	Menentukan tanggal dan durasi sewa 
--	Menentukan tanggal dan durasi sewa 
+-	Menentukan tanggal dan durasi sewa
+  
 Perhitungan Biaya Otomatis (OOP & Polymorphism): 
 -	Mobil: biaya sewa + asuransi tetap - Motor: diskon otomatis untuk sewa diatas 7 hari Penyimpanan Data Permanen: 
 -	Semua data disimpan ke database SQLite Login Admin: 
@@ -61,27 +64,31 @@ Keterangan:
 -	Mulai: Program dijalankan dan melakukan inisialisasi awal. 
 -	Login Admin: Sistem menampilkan form login (username & password). 
 -	Validasi Login: Sistem memeriksa kredensial. Jika valid, admin masuk ke menu utama. 
--	Tampilkan Antarmuka Utama: GUI muncul dengan tiga tab utama: Kendaraan, Pelanggan, dan Transaksi Sewa. 
+-	Tampilkan Antarmuka Utama: GUI muncul dengan tiga tab utama: Kendaraan, Pelanggan, dan Transaksi Sewa.
+  
 2.	Alur Tambah/Ubah/Hapus Kendaraan 
 -	Tambah Kendaraan: Admin mengisi form (Tipe, Plat, Merk, Tarif/Hari). 
 -	Validasi Data: Sistem mengecek format input dan kelengkapan. 
 -	Simpan Kendaraan: Jika valid, data disimpan ke database dan tabel kendaraan diperbarui otomatis. 
 -	Ubah Kendaraan: Admin memilih data di tabel, mengedit form, lalu menyimpan perubahan ke database. 
 -	Hapus Kendaraan: Admin memilih data di tabel, sistem menampilkan konfirmasi, lalu menghapus data jika disetujui. 
--	Clear Form: Admin dapat mengosongkan form untuk input baru. 
+-	Clear Form: Admin dapat mengosongkan form untuk input baru.
+  
 3.	Alur Tambah/Ubah/Hapus Pelanggan 
 -	Tambah Pelanggan: Admin mengisi form (Nama, Telp). 
 -	Validasi Data: Sistem mengecek format input dan kelengkapan. 
 -	Simpan Pelanggan: Jika valid, data disimpan ke database dan tabel pelanggan diperbarui otomatis. 
 -	Ubah Pelanggan: Admin memilih data di tabel, mengedit form, lalu menyimpan perubahan ke database. 
 -	Hapus Pelanggan: Admin memilih data di tabel, sistem menampilkan konfirmasi, lalu menghapus data jika disetujui. 
--	Clear Form: Admin dapat mengosongkan form untuk input baru. 
+-	Clear Form: Admin dapat mengosongkan form untuk input baru.
+  
 4.	Alur Transaksi Penyewaan Kendaraan 
 -	Pilih Pelanggan & Kendaraan: Admin memilih data dari combo box. 
 -	Isi Tanggal & Durasi: Admin menentukan tanggal sewa dan lama sewa (hari). 
 -	Hitung Total Biaya: Sistem otomatis menghitung total biaya berdasarkan tarif/hari × durasi. 
 -	Simpan Transaksi: Jika valid, data transaksi disimpan ke database dan tabel transaksi diperbarui. 
--	Cetak Struk: Admin memilih transaksi dan sistem mencetak struk sebagai bukti sewa. 
+-	Cetak Struk: Admin memilih transaksi dan sistem mencetak struk sebagai bukti sewa.
+  
 5.	Akhir Program (Finish) 
 -	Selesai: Semua aksi pengguna telah diproses. 
 -	Kondisi Siap/Tutup: Aplikasi kembali ke keadaan siap digunakan untuk transaksi berikutnya atau ditutup. 
