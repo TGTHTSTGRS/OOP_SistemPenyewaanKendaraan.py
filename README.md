@@ -24,22 +24,10 @@ hashlib 	    Hash password admin
 abc 	        abstract base class (OOP) 
 
 4. Arsitektur Aplikasi:
-   penyewaan_kendaraan/ 
-│ 
-├── app.py                 # Main aplikasi (GUI) 
-├── database.py            # Koneksi & inisialisasi SQLite 
-├── rental.db              # Database SQLite 
-├── dao.py                 # Data akses object  
-│ 
-	├── models/  	    # Logika bisnis 
-│   ├── __init__.py 
-│   ├── kendaraan.py       # Parent class (abstract) 
-│   ├── mobil.py           # Child class Mobil 
-│   ├── motor.py           # Child class Motor 
-│   ├── pelanggan.py       # Class Pelanggan 
-│   └── sewa.py            # Class Sewa 
-│ 
-└── .vscode/               # Konfigurasi VS Code
+
+   <img width="545" height="440" alt="image" src="https://github.com/user-attachments/assets/2f2cd4d0-5cd1-4cf1-9abb-ba32f88718ec" />
+
+
 
 Aplikasi menggunakan arsitektur terpisah antara : 
   - Presentation Layer: GUI Tkinter (app.py) 
