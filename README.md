@@ -26,7 +26,8 @@ Aplikasi menggunakan arsitektur terpisah antara :
    <img width="437" height="119" alt="image" src="https://github.com/user-attachments/assets/03016ec9-90f9-4062-be0f-95b2d3cb06d4" />
 
 
-5. Fitur Utama: 
+5. Fitur Utama:
+   
 Manajemen Data Kendaraan (CRUD): 
 -	Menambahkan data kendaraan (Mobil dan Motor) 
 -	Menampilkan daftar kendaraan 
