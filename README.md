@@ -7,21 +7,10 @@
    - Menghasilkan aplikasi yang mudah digunakan dan memiliki struktur kode yang rapi. 
 
 3. Daftar spesifikasi Aplikasi:
-    
-- Bahasa Pemrograman: Python 3.11
-- Database: DB Browser SQLite
-  
-- Library: 
-tkinter 	    GUI (window utama) 
-tkinter.ttk 	Notebook (tab) 
-              Treeview (tabel) Combobox 
-              Button, Label, Entry 
-messagebox 	  Popup notifikasi 
-filedialog 	  Simpan struk 
-sqlite3 	    database SQLite 
-datetime 	    Tanggal transaksi 
-hashlib 	    Hash password admin 
-abc 	        abstract base class (OOP) 
+
+
+    <img width="396" height="388" alt="image" src="https://github.com/user-attachments/assets/0709571d-7093-4ede-aeff-94b5d96733de" />
+
 
 4. Arsitektur Aplikasi:
 
@@ -57,25 +46,10 @@ Perhitungan Biaya Otomatis (OOP & Polymorphism):
 -	Menyimpan struk dalam bentuk file .txt 
 
 6.	Komponen Data:
-Data Kendaraan 	      ID Kendaraan 
-                      Tipe Kendaraan (Mobil/Motor) 
-                      Nomor Plat 
-                      Merk Kendaraan 
-                      Tarif Sewa per Hari 
- 
-Data Pelanggan 	      ID Pelanggan 
-                      Nama Pelanggan 
-                      Nomor Telepon 
- 
-Data Transaksi Sewa 	ID Transaksi 
-                      Tanggal Sewa 
-                      Durasi Sewa 
-                      Total Biaya 
-                      Relasi Kendaraan 
-                      Relasi Pelanggan 
- 
-Data Admin 	          Username 
-                      Password (disimpan dalam bentuk hash)
+
+
+   <img width="541" height="536" alt="image" src="https://github.com/user-attachments/assets/24012085-c0a5-4602-9d7f-80a8e8e8b4c7" />
+
 
 
 7. Diagram Proses:
